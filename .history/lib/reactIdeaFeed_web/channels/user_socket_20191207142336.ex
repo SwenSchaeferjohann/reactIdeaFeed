@@ -2,7 +2,7 @@ defmodule ReactIdeaFeedWeb.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-   channel "main:*", ReactIdeaFeedWeb.MainChannel
+   channel "room:*", ReactIdeaFeedWeb.RoomChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After

@@ -16,7 +16,7 @@ defmodule ReactIdeaFeedWeb.Router do
   scope "/", ReactIdeaFeedWeb do
     pipe_through :browser
 
-    get "/*path", PageController, :index
+    get "/", PageController, :index
   end
 
   # Other scopes may use custom stacks.
